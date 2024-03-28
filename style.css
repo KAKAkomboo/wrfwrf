@@ -1,0 +1,299 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    width: 320px;
+    height: 650px;
+    border: 2px solid rgb(141, 18, 18);
+}
+
+.main > header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 8px 12px;
+    background-color: rgb(141, 18, 18);
+    color: white;
+}
+
+.section1{
+    margin: 16px;
+    padding-bottom: 12px;
+}
+
+.section1 > span{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    top: 4px;
+}
+
+.down{
+    display: inline;
+    position: relative;
+    top: 12px;
+}
+
+.down > a{
+    color: orange;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.down > span{
+    font-size: 12px;
+    position: relative;
+    left: 4px;
+    color: grey;
+}
+.block-title1{
+    display: inline;
+}
+
+.block-title1 > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12%;
+}
+
+.block-title1 > span {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    color: rgb(55, 55, 130);
+}
+
+
+.block-title1 > a {
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    bottom: 15px;
+    border: 2px solid rgb(108, 108, 184);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.section2{
+    margin: 16px;
+    margin-top: 24px;
+    padding-bottom: 12px;
+}
+
+.section2 > span{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    top: 8px;
+}
+
+.down2{
+    display: inline;
+    position: relative;
+    top: 12px;
+}
+
+.down2 > a{
+    color: orange;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.down2 > span{
+    font-size: 12px;
+    position: relative;
+    left: 4px;
+    color: grey;
+}
+.block-title2{
+    display: flex;
+}
+
+.block-title2 > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12%;
+}
+
+.block-title2 > .h1 > span  {
+    display: block;
+    position: relative;
+    left: 5px;
+    color: rgb(55, 55, 130);
+}
+
+
+
+.block-title2 > a {
+    display: inline;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+    border: 2px solid rgb(108, 108, 184);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.button:link {
+    color: rgb(108, 108, 184);
+}
+.button:visited{
+    color: rgb(41, 85, 94);
+}
+.button:hover{
+    color: rgb(110, 166, 177);
+    border: 2px solid rgb(110, 166, 177);
+}
+
+
+
+
+
+
+.section3{
+    margin: 16px;
+    padding-bottom: 12px;
+}
+
+.section3 > span{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    top: 4px;
+}
+
+.down3{
+    display: inline;
+    position: relative;
+    top: 12px;
+}
+
+
+.down3 > span{
+    font-size: 12px;
+    position: relative;
+    left: 4px;
+    color: grey;
+}
+.block-title3{
+    display: inline;
+}
+
+.block-title3 > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12%;
+}
+
+.block-title3 > span {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    color: rgb(55, 55, 130);
+}
+
+
+.block-title3 > a {
+    margin-left: 123px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    bottom: 15px;
+    border: 2px solid rgb(108, 108, 184);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.section4{
+    margin: 16px;
+    padding-bottom: 12px;
+}
+
+.section4 > span{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    top: 0px;
+}
+
+.down4{
+    display: inline;
+    position: relative;
+    top: 12px;
+}
+
+
+.down4 > span{
+    font-size: 12px;
+    position: relative;
+    left: 4px;
+    color: grey;
+}
+.block-title4{
+    display: inline;
+}
+
+.block-title4 > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12%;
+}
+
+.block-title4 > span {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    color: rgb(55, 55, 130);
+}
+
+
+.block-title4 > a {
+    left: 104px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+    border: 2px solid rgb(108, 108, 184);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.more{
+    margin-left: 16px;
+}
+.more > span {
+    position: relative;
+    font-size: 14px;
+    top: -8px;
+}
